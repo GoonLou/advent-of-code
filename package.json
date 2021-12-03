@@ -1,22 +1,28 @@
 {
-  "name": "advent-of-code",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.0.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "16.11.11",
-    "@types/react": "17.0.37",
-    "eslint": "7",
-    "eslint-config-next": "12.0.4",
-    "typescript": "4.5.2"
-  }
+    "name": "advent-of-code",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "load": "node --loader ts-node/esm"
+    },
+    "dependencies": {
+        "next": "12.0.4",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "ts-node": "^10.4.0"
+    },
+    "devDependencies": {
+        "@types/node": "16.11.11",
+        "@types/react": "17.0.37",
+        "eslint": "7",
+        "eslint-config-next": "12.0.4",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-plugin-import": "2.25.3",
+        "eslint-plugin-prettier": "4.0.0",
+        "prettier": "2.4.1",
+        "typescript": "4.5.2"
+    }
 }
